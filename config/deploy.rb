@@ -4,6 +4,7 @@ require 'capistrano/ext/multistage'
 set :application, "Tt"
 set :repository,  "git@github.com:sujiravi/teentool.git"
 set :scm, :git
+set :use_sudo, false
 
 set :deploy_to, "/home"
 
